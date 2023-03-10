@@ -21,8 +21,8 @@ Clone the repository to your local machine.
 ## Requirements
 To run the app, you'll need:
 
-Flutter 2.2.0 or higher
-Dart 2.13.0 or higher
+- Flutter 2.2.0 or higher
+- Dart 2.13.0 or higher
 
 ## Acknowledgments
 This app was developed with the help of various open-source libraries and resources. Special thanks to the following:
