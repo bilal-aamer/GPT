@@ -18,6 +18,14 @@ Clone the repository to your local machine.
 - Run the command flutter pub get in the project directory to install dependencies.
 - Run the command flutter run to launch the app on your device or emulator.
 
+You have to create OpenAI account and request API key from here: https://beta.openai.com/account/api-keys
+
+replace it int home_page.dart
+
+```dart
+const API_KEY = "YOUR_API_KEY";
+```
+
 ## Requirements
 To run the app, you'll need:
 
