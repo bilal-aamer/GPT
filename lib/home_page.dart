@@ -24,7 +24,7 @@ const backgroundColor = Color(0xff343541);
 const botBackgroundColor = Color(0xff444654);
 
 // You have to create OpenAI account and request API key from here: https://beta.openai.com/account/api-keys
-const API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+const API_KEY = "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";
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});
@@ -63,7 +63,7 @@ class _ChatPageState extends State<ChatPage> {
         title: const Padding(
           padding: EdgeInsets.all(8.0),
           child: Text(
-            'Flutter ChatGPT',
+            'GPT Home - Chat',
             maxLines: 2,
             textAlign: TextAlign.center,
           ),
