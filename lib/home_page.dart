@@ -63,7 +63,7 @@ class _ChatPageState extends State<ChatPage> {
         title: const Padding(
           padding: EdgeInsets.all(8.0),
           child: Text(
-            'GPT Home - Chat',
+            'GPT Home',
             maxLines: 2,
             textAlign: TextAlign.center,
           ),
@@ -171,6 +171,7 @@ class _ChatPageState extends State<ChatPage> {
           .showSnackBar(SnackBar(content: Text("Message copied to clipboard")));
     });
   }
+
 
   void _initSpeech() async {
     _speechEnabled = await _speechToText.initialize(
