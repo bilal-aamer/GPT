@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'GPT Home',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: ,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
